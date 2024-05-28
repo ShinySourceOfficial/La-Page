@@ -46,7 +46,7 @@ body {
 }
 
 .interlineado {
-    line-height: 8px;
+    line-height: 1.6;
 }
 
 .subtexto {
@@ -97,7 +97,7 @@ body {
 
 .caja-margin {
     margin-right: 15px; /* Espacio entre las cajas */
-    margin-left: 150px; /* Espacio entre las cajas */
+    margin-left: 115px; /* Espacio entre las cajas */
 }
 
 .acerca-descripcion {
