@@ -25,7 +25,11 @@ body {
 }
 
 .card-title {
-    color: #000000;
+    color: #ffffff;
+}
+
+.card-text {
+    color: #ffffff;
 }
 
 #home {
@@ -37,6 +41,10 @@ body {
     padding-bottom: 8px;
 }
 
+.noticia-titulo {
+    color: white;
+}
+
 .interlineado {
     line-height: 8px;
 }
@@ -46,13 +54,64 @@ body {
 }
 
 .personaje1 {
-    background-color: rgb(255, 225, 160);
+    background-color: black;
 }
 
 .personaje2 {
-    background-color: silver;
+    background-color: black;
 }
 
 .personaje3 {
-    background-color: rgb(202, 163, 123);
+    background-color: black;
+}
+
+.cajanoticia {
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+.custom-container {
+    max-width: 1700px;
+}
+
+.noticia-descripcion {
+    font-size: 18px;
+    color: white;
+}
+
+.noticia-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.caja {
+    background-color: #f8f9fa; /* Color de fondo para las cajas */
+    border: 1px solid #dee2e6; /* Borde de las cajas */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 15px; /* Espaciado superior */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+.caja-margin {
+    margin-right: 15px; /* Espacio entre las cajas */
+    margin-left: 150px; /* Espacio entre las cajas */
+}
+
+.acerca-descripcion {
+    font-size: 20px;
+}
+
+#success-message {
+    display: none;
+}
+
+form:invalid ~ #success-message {
+    display: none;
+}
+
+form:valid ~ #success-message {
+    display: block;
 }

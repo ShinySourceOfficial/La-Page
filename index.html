@@ -19,8 +19,8 @@
             <ul class="navbar-nav ml-auto" id="nav">
                 <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="#noticias">Noticias</a></li>
-                <li class="nav-item"><a class="nav-link" href="#personajes">Personajes</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="#personajes">Top Personaje</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Votación</a></li>
                 <li class="nav-item"><a class="nav-link" href="#acerca">Acerca de</a></li>
             </ul>
         </div>
@@ -34,7 +34,7 @@
             <li data-target="#mangaCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active" href="#noticia1">
+            <div class="carousel-item active">
                 <a href="#noticia1"><img src="assets/img/Sin título-1.png" class="d-block w-100" alt="..." ></a>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Metal Boom: Chronicles - The First Attack</h5>
@@ -42,14 +42,14 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/Sin título-2.png" class="d-block w-100" alt="...">
+                <a href="#noticia2"><img src="assets/img/Sin título-2.png" class="d-block w-100" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Metal Boom - Dark Hazard</h5>
                     <p>¡Se Anuncia La Seria de Manga De Metal Boom Para 2025!</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/Sin título-3.png" class="d-block w-100" alt="...">
+                <a href="#noticia3"><img src="assets/img/Sin título-3.png" class="d-block w-100" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Fryzzy's Path</h5>
                     <p>¡Nuevos Avances del One-Shot De Fryzzy!</p>
@@ -76,30 +76,62 @@
     </section>
 
     <!-- Sección de Noticias -->
-    <section id="noticias" class="py-5">
-        <div class="container">
-            <h2>Últimas Noticias</h2>
-            <div class="list-group">
-                <a id="noticia1" href="#" class="list-group-item list-group-item-action">
-                    <h5 class="mb-1">Noticia 1</h5>
-                    <p class="mb-1">Descripción de la noticia 1.</p>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <h5 class="mb-1">Noticia 2</h5>
-                    <p class="mb-1">Descripción de la noticia 2.</p>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <h5 class="mb-1">Noticia 3</h5>
-                    <p class="mb-1">Descripción de la noticia 3.</p>
-                </a>
+    <div id="noticias" class="container custom-container">
+        <section class="py-5">
+            <h2>Noticias</h2>
+            <div class="row mb-4 align-items-center cajanoticia" id="noticia1">
+                <div class="col-md-4 text-center">
+                    <img src="assets/img/Sin título-7.png" class="img-fluid noticia-img" alt="Noticia 1">
+                </div>
+                <div class="col-md-8">
+                    <div class="noticia-content">
+                        <h3 class="noticia-titulo">¡Se Estrena La Novela Spin-Off De Metal Boom!</h3>
+                        <p class="noticia-descripcion">Descripción de la noticia 1. Aquí va el contenido detallado de la noticia. Esta descripción estará a la derecha de la imagen.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+            <div class="row mb-4 align-items-center cajanoticia" id="noticia2">
+                <div class="col-md-4 text-center">
+                    <img src="assets/img/Sin título-8.png" class="img-fluid noticia-img" alt="Noticia 2">
+                </div>
+                <div class="col-md-8">
+                    <div class="noticia-content">
+                        <h3 class="noticia-titulo">¡Se Anuncia La Seria de Manga De Metal Boom Para 2025!</h3>
+                        <p class="noticia-descripcion">Descripción de la noticia 1. Aquí va el contenido detallado de la noticia. Esta descripción estará a la derecha de la imagen.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4 align-items-center cajanoticia" id="noticia3">
+                <div class="col-md-4 text-center">
+                    <img src="assets/img/Sin título-9.png" class="img-fluid noticia-img" alt="Noticia 3">
+                </div>
+                <div class="col-md-8">
+                    <div class="noticia-content">
+                        <h3 class="noticia-titulo">¡Nuevos Avances del One-Shot De Fryzzy!</h3>
+                        <p class="noticia-descripcion">Descripción de la noticia 1. Aquí va el contenido detallado de la noticia. Esta descripción estará a la derecha de la imagen.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4 align-items-center cajanoticia">
+                <div class="col-md-4 text-center">
+                    <img src="assets/img/Sin título-10.png" class="img-fluid noticia-img" alt="Noticia 4">
+                </div>
+                <div class="col-md-8">
+                    <div class="noticia-content">
+                        <h3 class="noticia-titulo">¡RUMOR: Se Cree Que ShinySource Ya Esta Trabajando En Un Nuevo One-Shot!</h3>
+                        <p class="noticia-descripcion">Descripción de la noticia 1. Aquí va el contenido detallado de la noticia. Esta descripción estará a la derecha de la imagen.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Añadir más noticias según sea necesario -->
+        </section>
+    </div>
 
     <!-- Sección de Personajes -->
     <section id="personajes" class="py-5 bg-light">
         <div class="container">
-            <h2>Top Personaje del Mes</h2>
+            <h2 class="titulo">Top Personaje del Mes</h2>
             <div class="card-deck">
                 <div class="card personaje-card personaje1">
                     <img src="assets/img/Sin título-4.png" class="card-img-top" alt="...">
@@ -109,14 +141,14 @@
                     </div>
                 </div>
                 <div class="card personaje-card personaje2">
-                    <img src="img/personaje2.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/Sin título-5.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Número 2° - DARK</h5>
                         <p class="card-text">David Gray se lleva el premio de plata en este mes, con un aproximado de 3000 votos en su favor.</p>
                     </div>
                 </div>
                 <div class="card personaje-card personaje3">
-                    <img src="img/personaje3.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/Sin título-6.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Número 3° - METAL BOOM</h5>
                         <p class="card-text">Jack Walker se lleva el premio de bronce en este mes, con un aproximado de 2900 votos en su favor.</p>
@@ -130,14 +162,26 @@
     <section id="contacto" class="py-5 bg-light">
         <div class="container">
             <h2>Vota Por Tu Personaje Favorito:</h2>
-            <form>
+            <!-- Mensaje de éxito (inicialmente oculto) -->
+            <div id="success-message" class="alert alert-success" role="alert">
+                ¡Formulario enviado exitosamente!
+            </div>
+            <form id="form-contacto" onsubmit="return false;">
                 <div class="form-group">
-                    <label for="nombre">Ingresa Tu Correo:</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="example@example.com">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu teléfono" required>
                 </div>
                 <div class="form-group">
                     <label for="tema">Elección:</label>
-                    <select class="form-control" id="tema">
+                    <select class="form-select" id="tema" required>
                         <option value="" disabled selected>Elige un Personaje</option>
                         <option class="subtexto" disabled>Metal Boom: Chronicles - The First Attack</option>
                         <option>Mike - Oficial Novato</option>
@@ -171,9 +215,17 @@
 
     <!-- Sección de Acerca de -->
     <section id="acerca" class="py-5">
-        <div class="container">
-            <h2>Acerca de MangaWiki</h2>
-            <p>Información sobre la wiki de mangas y su propósito.</p>
+        <div class="container custom-container">
+            <div class="row mb-4 align-items-center">
+                <div class="col-md-5 text-center acerca-content caja caja-margin">
+                    <h2>Acerca de ShinyIndex</h2>
+                    <p class="acerca-descripcion">ShinyDex se creo con el un solo concepto en mente. Una Wiki Oficial con todo tipo de datos de nuestras historias, con eso como punto de partida, nacio este sitio. Donde por el camino se añadieron apartados como los de Noticias y el Top mensual del personaje favorito.</p>
+                </div>
+                <div class="col-md-5 text-center acerca-content caja caja-margin2">
+                    <h2>Acerca de ShinySource</h2>
+                    <p class="acerca-descripcion">El creador de todas esas historias, se desearia que fuese más activo en sus proyectos, pero es lo que tenemos. Se puede encontrar en muchos sitios como Instagram, Youtube o Twitch. Pero el lugar donde deposita todo su trabajo es en MangaPlus Creators y Wattpad.</p>
+                </div>
+            </div>
         </div>
     </section>
 
