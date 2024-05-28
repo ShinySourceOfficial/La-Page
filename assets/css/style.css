@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#nav {
+    background-color: black;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #54e774;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.card-title {
+    color: #000000;
+}
+
+#home {
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    padding-bottom: 8px;
+}
+
+.interlineado {
+    line-height: 8px;
+}
+
+.subtexto {
+    font-size: 13px;
+}
+
+.personaje1 {
+    background-color: rgb(255, 225, 160);
+}
+
+.personaje2 {
+    background-color: silver;
+}
+
+.personaje3 {
+    background-color: rgb(202, 163, 123);
+}
